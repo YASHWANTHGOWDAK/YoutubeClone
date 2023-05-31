@@ -1,0 +1,32 @@
+.navbar {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding: 0px 45px;
+}
+
+.searchBar input{
+    height:40px ;
+    width: 450px;
+    border-radius: 50px;
+    border: 1px solid gainsboro;
+    font-size: 17px;
+    padding-left: 20px;
+
+}
+
+.searchBar input:focus{
+    outline: none;
+    border: 1px solid rgb(35, 35, 239);
+
+}
+
+.userOption {
+    display: flex;
+   border-width: 100%;
+   justify-content: space-evenly;
+   align-items: center;
+
+ 
+   
+}
