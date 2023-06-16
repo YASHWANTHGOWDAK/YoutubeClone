@@ -1,5 +1,6 @@
 import Banner from "./Banner";
 import Categories from "./Categories";
+import Vedios from "./Vedios";
 
 const Home = () => {
     return ( 
@@ -8,6 +9,8 @@ const Home = () => {
             <Categories/>
             
             <Banner/>
+
+            <Vedios/>
 
         </div>
      );
